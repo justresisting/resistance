@@ -1,0 +1,176 @@
+/* Super.so BASE Css
+
+
+/* Super.so Builder Theme Template Space */
+/* https://sites.super.so/builder/themes/space/space.css */
+/* Start Theme Variables */
+
+:root {
+    /* Layout */
+    --column-spacing: 40px!important;
+    --max-width: 1150px!important;
+    /* Navbar CTA */
+    --cta-padding: 14px 20px!important;
+    --cta-border-radius: 10px!important;
+    --cta-border: none!important;
+    --cta-shadow: none!important;
+    /* Callout */
+    --callout-padding: 20px 40px 15px 20px!important;
+    --callout-border: none!important;
+    --callout-border-radius: 10px!important;
+    --callout-shadow: 8.6px 6px 10px rgba(0, 0, 0, 0.07), 69px 48px 80px rgba(0, 0, 0, 0.14)!important;
+    --callout-icon-size: 15px!important;
+    --callout-emoji-size: 18px!important;
+    /* Collections */
+    --collection-list-item-border-radius: 5px!important;
+    --collection-list-item-padding: 5px 0px 5px 5px!important;
+    --collection-gallery-gap: 30px!important;
+    --collection-title-text-size: 16px!important;
+    --collection-property-text-size: 14px!important;
+    --color-card-bg: #222330!important;
+    --collection-card-border-radius: 5px!important;
+    --collection-card-padding: 20px!important;
+    --collection-card-border: none!important;
+    --collection-card-cover-size-small: 172px!important;
+    --collection-card-cover-size-medium: 260px!important;
+    --collection-card-cover-size-large: 320px!important;
+    /*Pill */
+    --notion-pill-padding: 2px 5px!important;
+    --notion-pill-border-radius: 0px!important;
+    --notion-pill-text-size: 11px!important;
+    --notion-pill-text-weight: 500!important;
+    --notion-pill-text-transform: uppercase!important;
+    --notion-pill-letter-spacing: 1px!important;
+    /* Images */
+    --image-border-radius: 5px!important;
+    /* Misc */
+    --divider-margin: 15px 0px!important;
+    --divider-opacity: .8!important;
+    /* Typography */
+    --text-spacing: 0px!important;
+    --secondary-font: 'Inter', sans-serif!important;
+    --notion-text-margin: 0px 0px 0px 0px!important;
+    /* h1 */
+    --h1-size: 2.6rem!important;
+    --h1-weight: 500!important;
+    --h1-spacing: -2px!important;
+    --h1-margin: 10px 0px 15px 0px!important;
+    --h1-line-height: 1.1!important;
+    /* h2 */
+    --h2-size: 1.8rem!important;
+    --h2-weight: 500!important;
+    --h2-spacing: -.5px!important;
+    --h2-margin: 10px 0px 10px 0px!important;
+    --h2-line-height: 1.2!important;
+    /* h3 */
+    --h3-size: 1.4rem!important;
+    --h3-weight: 500!important;
+    --h3-spacing: -1px!important;
+    --h3-margin: 5px 0px 5px 0px!important;
+    --h3-line-height: 1.4!important;
+    /* Link */
+    --link-border-width: 0px 0px 0px 0px!important;
+    --link-border-style: none!important;
+    --link-border-color: none!important;
+    /* Colors */
+    --color-text-default: #ffffff!important;
+    --color-border-default: #454b4e!important;
+    --color-bg-default: #2A2B37!important;
+    --color-ui-hover-bg: #222330!important;
+    --color-ui-hover-bg-light: #2E303D!important;
+    --color-bg-gray-light: #1b1b1b!important;
+    --color-text-gray: rgba(255, 255, 255, .7)!important;
+    --color-text-yellow: #f0bd66!important;
+    --color-text-green: #5bd4c1!important;
+    --color-text-blue: #28D4D8!important;
+}
+
+
+/* End Theme Variables*/
+
+
+/* Start Theme overwrites */
+
+.bg-gray-light {
+    color: white!important;
+}
+
+p.notion-text__content,
+.notion-bulleted-list,
+.notion-numbered-list {
+    font-family: var(--secondary-font)!important;
+}
+
+.notion-callout .notion-callout {
+    box-shadow: none!important;
+}
+
+.notion-callout {
+    background: rgb(53, 54, 68);
+    background: linear-gradient(140deg, rgba(53, 54, 68, 1) 27%, rgba(42, 43, 55, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-blue-light {
+    background: rgb(85, 42, 170);
+    background: linear-gradient(140deg, rgba(85, 42, 170, 1) 18%, rgba(92, 217, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-yellow-light {
+    background: rgb(255, 187, 49);
+    background: linear-gradient(140deg, rgba(255, 187, 49, 1) 27%, rgba(182, 255, 40, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-green-light {
+    background: rgb(93, 212, 120);
+    background: linear-gradient(140deg, rgba(93, 212, 120, 1) 27%, rgba(31, 157, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-pink-light {
+    background: rgb(177, 54, 135);
+    background: linear-gradient(140deg, rgba(177, 54, 135, 1) 27%, rgba(31, 86, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-purple-light {
+    background: rgb(159, 48, 255);
+    background: linear-gradient(140deg, rgba(159, 48, 255, 1) 27%, rgba(31, 157, 194, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-orange-light {
+    background: rgb(255, 171, 35);
+    background: linear-gradient(140deg, rgba(255, 171, 35, 1) 27%, rgba(242, 80, 80, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-red-light {
+    background: rgb(223, 49, 30);
+    background: linear-gradient(140deg, rgba(223, 49, 30, 1) 27%, rgba(255, 158, 158, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-gray-light {
+    background: rgb(34, 35, 48);
+    background: linear-gradient(163deg, rgba(34, 35, 48, 1) 0%, rgba(18, 19, 31, 1) 100%)!important;
+    color: var(--color-text-default)!important;
+}
+
+.bg-brown-light {
+    background: rgb(245, 141, 112);
+    background: linear-gradient(142deg, rgba(245, 141, 112, 1) 0%, rgba(230, 233, 101, 1) 15%, rgba(223, 255, 217, 1) 32%, rgba(183, 217, 234, 1) 50%, rgba(68, 200, 255, 1) 69%, rgba(179, 165, 249, 1) 85%, rgba(255, 192, 224, 1) 100%)!important;
+    color: #2b2b2b!important;
+}
+
+.bg-brown-light span {
+    color: #2b2b2b!important;
+}
+
+
+/* End Theme overwrites */
+
+
+/* Start Builder Base */
